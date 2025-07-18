@@ -380,6 +380,13 @@ footer {
 padding: 0 8px;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
 
 /* 
 **
@@ -431,6 +438,14 @@ select {
   padding-top: 60px;
   font-size: 60px;
   color: #7342d6;
+}
+
+.books__loading--spinner {
+    display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+    display: block !important;
 }
 
 .fa-spinner {
